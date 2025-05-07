@@ -1,0 +1,12 @@
+
+1. Route for data to portal: http://localhost:3000/result/:id
+
+Output format: 
+{
+    "id": "1",
+    "result": {
+        "dsa": "a+",
+        "problem solving": "b-",
+        "logical thinking": "a"
+    }
+}

@@ -1,0 +1,12 @@
+{
+	"1" : {
+		"dsa": "a+",
+		"problem solving": "b-",
+		"logical thinking": "a"
+	},
+
+	"2" : {
+		"dsa": "b-",
+		"logical thinking": "a+"
+	}
+}
