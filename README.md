@@ -1,4 +1,4 @@
-Certainly! Here's a `README.md` file tailored for your [SYNAP\_SYNC GitHub repository](https://github.com/DhruboRoyPartho/SYNAP_SYNC). You can copy and paste the following content directly into your repository's `README.md` file:
+
 
 ```markdown
 # SYNAP_SYNC
