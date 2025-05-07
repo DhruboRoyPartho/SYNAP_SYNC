@@ -26,6 +26,34 @@ const userRegister = async (req, res) => {
         name: req.body.name,
         email: req.body.email,
         type: req.body.type,
+        studentID: req.body.id,
+        password: securePassword,
+    }
+    const result = await usersCollection.insertOne(userInfo);
+
+    res.send(result);
+};
+
+// Create New User
+const companyRegister = async (req, res) => {
+    const user = req.body;
+
+    console.log(user);
+
+    const query = { email: user.email };
+    const existingUser = await usersCollection.findOne(query);
+    if (existingUser) {
+        return res.send({ message: 'user already exist!', insertedId: null })
+    }
+
+    const salt = await bcrypt.genSalt(10)
+    const securePassword = await bcrypt.hash(req.body.password, salt)
+
+    const userInfo = {
+        name: req.body.name,
+        email: req.body.email,
+        type: req.body.type,
+        studentID: req.body.id,
         password: securePassword,
     }
     const result = await usersCollection.insertOne(userInfo);

@@ -26,6 +26,9 @@ const authRouter = require('./routes/authRoute');
 
 app.use('/auth', authRouter);
 
+const studentRouter = require('./routes/studentRoute');
+app.use('/student', studentRouter);
+
 
 
 

@@ -26,6 +26,7 @@ const AuthProvider = ({ children }) => {
             localStorage.setItem('userName', response.data.user.name);
             localStorage.setItem('type', userType);
             localStorage.setItem('email', email);
+            localStorage.setItem('id', response.data.user.studentID);
 
             setUser(response.data.user);
             setType(userType);

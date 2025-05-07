@@ -76,8 +76,8 @@ const Navbar = () => {
                         <NavLink to='/' className="my-2 text-gray-700 font-semibold transition-colors duration-300 transform  md:mx-4 md:my-0">
                             Home
                         </NavLink>
-                        <NavLink to='/about' className="my-2 text-gray-700 font-semibold transition-colors duration-300 transform  md:mx-4 md:my-0">
-                            About
+                        <NavLink to='/jobs' className="my-2 text-gray-700 font-semibold transition-colors duration-300 transform  md:mx-4 md:my-0">
+                            Jobs
                         </NavLink>
                         <NavLink to='/contact' className="my-2 text-gray-700 font-semibold transition-colors duration-300 transform  md:mx-4 md:my-0">
                             Contact
