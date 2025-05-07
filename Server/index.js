@@ -22,9 +22,11 @@ const client = require('./connect')
 
 // Routes
 const authRouter = require('./routes/authRoute');
+const jobRoute = require('./routes/jobRoute');
 
 
 app.use('/auth', authRouter);
+app.use('/job', jobRoute);
 
 
 
@@ -33,6 +35,7 @@ app.get('/', (req, res) => {
     res.send('server is on');
 })
 app.listen(port, () => {
+    // console.log(process.env.MONGO_URI)
     console.log(`server is on port ${port}`);
 })
 
