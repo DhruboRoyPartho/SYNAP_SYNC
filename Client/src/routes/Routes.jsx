@@ -6,6 +6,7 @@ import UserRegister from "../pages/login-register/UserRegister";
 import StudentHome from "../dashboard/student/StudentHome";
 import Dashboard from "../layout/DashboardLayout";
 import JobList from "../pages/jobs/Jobs";
+import Recommendation from "../pages/recommendation/Recommendation";
 
 
 export const router = createBrowserRouter([
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
       {
         path: '/jobs',
         element: <JobList />
+      },
+      {
+        path: '/recommendation',
+        element: <Recommendation />
       },
       {
         path: '/register',

@@ -7,6 +7,7 @@ const AuthContext = createContext();
 const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
     const [type, setType] = useState(null);
+    const [recommendation, setRecommendation] = useState({});
 
 
     const axiosPublic = useAxiosPublic();
@@ -47,7 +48,7 @@ const AuthProvider = ({ children }) => {
     };
 
     return (
-        <AuthContext.Provider value={{ user, type, login, logout}}>
+        <AuthContext.Provider value={{ user, type, login, logout, recommendation, setRecommendation}}>
             {children}
         </AuthContext.Provider>
     );
