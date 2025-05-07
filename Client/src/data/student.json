@@ -1,0 +1,92 @@
+{
+    "1": {
+      "dsa": 75,
+      "java": 62,
+      "c": 48,
+      "ml": 55,
+      "ai": 89,
+      "db": 77,
+      "cryptography": 23
+    },
+    "2": {
+      "dsa": 91,
+      "java": 85,
+      "c": 66,
+      "ml": 74,
+      "ai": 93,
+      "db": 80,
+      "cryptography": 45
+    },
+    "3": {
+      "dsa": 58,
+      "java": 49,
+      "c": 39,
+      "ml": 60,
+      "ai": 52,
+      "db": 70,
+      "cryptography": 30
+    },
+    "4": {
+      "dsa": 82,
+      "java": 73,
+      "c": 57,
+      "ml": 61,
+      "ai": 78,
+      "db": 88,
+      "cryptography": 50
+    },
+    "5": {
+      "dsa": 47,
+      "java": 40,
+      "c": 31,
+      "ml": 45,
+      "ai": 59,
+      "db": 66,
+      "cryptography": 35
+    },
+    "6": {
+      "dsa": 88,
+      "java": 90,
+      "c": 70,
+      "ml": 84,
+      "ai": 92,
+      "db": 95,
+      "cryptography": 78
+    },
+    "7": {
+      "dsa": 67,
+      "java": 59,
+      "c": 41,
+      "ml": 49,
+      "ai": 72,
+      "db": 65,
+      "cryptography": 40
+    },
+    "8": {
+      "dsa": 54,
+      "java": 46,
+      "c": 35,
+      "ml": 52,
+      "ai": 61,
+      "db": 60,
+      "cryptography": 18
+    },
+    "9": {
+      "dsa": 96,
+      "java": 91,
+      "c": 80,
+      "ml": 88,
+      "ai": 94,
+      "db": 98,
+      "cryptography": 85
+    },
+    "10": {
+      "dsa": 63,
+      "java": 57,
+      "c": 43,
+      "ml": 58,
+      "ai": 70,
+      "db": 72,
+      "cryptography": 29
+    }
+  }

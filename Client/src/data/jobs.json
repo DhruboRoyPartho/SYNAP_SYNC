@@ -1,0 +1,162 @@
+[
+    {
+      "id": 1,
+      "company": "OpenAI",
+      "job title": "AI Engineer",
+      "skills": {
+        "dsa": 82,
+        "java": 0,
+        "c": 0,
+        "ml": 61,
+        "ai": 78,
+        "db": 88,
+        "cryptography": 0
+      },
+      "salary": 150000,
+      "type": "remote"
+    },
+    {
+      "id": 2,
+      "company": "Google",
+      "job title": "Backend Developer",
+      "skills": {
+        "dsa": 70,
+        "java": 85,
+        "c": 40,
+        "ml": 0,
+        "ai": 0,
+        "db": 90,
+        "cryptography": 30
+      },
+      "salary": 135000,
+      "type": "hybrid"
+    },
+    {
+      "id": 3,
+      "company": "Amazon",
+      "job title": "Data Scientist",
+      "skills": {
+        "dsa": 65,
+        "java": 0,
+        "c": 0,
+        "ml": 85,
+        "ai": 70,
+        "db": 75,
+        "cryptography": 0
+      },
+      "salary": 145000,
+      "type": "onsite"
+    },
+    {
+      "id": 4,
+      "company": "Microsoft",
+      "job title": "Cloud Security Engineer",
+      "skills": {
+        "dsa": 50,
+        "java": 0,
+        "c": 30,
+        "ml": 0,
+        "ai": 0,
+        "db": 60,
+        "cryptography": 80
+      },
+      "salary": 155000,
+      "type": "remote"
+    },
+    {
+      "id": 5,
+      "company": "Netflix",
+      "job title": "Full Stack Developer",
+      "skills": {
+        "dsa": 60,
+        "java": 70,
+        "c": 40,
+        "ml": 30,
+        "ai": 0,
+        "db": 85,
+        "cryptography": 0
+      },
+      "salary": 130000,
+      "type": "hybrid"
+    },
+    {
+      "id": 6,
+      "company": "Tesla",
+      "job title": "Embedded Systems Engineer",
+      "skills": {
+        "dsa": 55,
+        "java": 0,
+        "c": 90,
+        "ml": 20,
+        "ai": 60,
+        "db": 45,
+        "cryptography": 0
+      },
+      "salary": 140000,
+      "type": "onsite"
+    },
+    {
+      "id": 7,
+      "company": "Meta",
+      "job title": "Machine Learning Engineer",
+      "skills": {
+        "dsa": 72,
+        "java": 0,
+        "c": 0,
+        "ml": 88,
+        "ai": 91,
+        "db": 70,
+        "cryptography": 0
+      },
+      "salary": 160000,
+      "type": "remote"
+    },
+    {
+      "id": 8,
+      "company": "IBM",
+      "job title": "Cybersecurity Analyst",
+      "skills": {
+        "dsa": 45,
+        "java": 0,
+        "c": 30,
+        "ml": 20,
+        "ai": 0,
+        "db": 50,
+        "cryptography": 95
+      },
+      "salary": 125000,
+      "type": "onsite"
+    },
+    {
+      "id": 9,
+      "company": "Salesforce",
+      "job title": "DevOps Engineer",
+      "skills": {
+        "dsa": 50,
+        "java": 65,
+        "c": 0,
+        "ml": 0,
+        "ai": 0,
+        "db": 85,
+        "cryptography": 20
+      },
+      "salary": 138000,
+      "type": "hybrid"
+    },
+    {
+      "id": 10,
+      "company": "Nvidia",
+      "job title": "AI Research Scientist",
+      "skills": {
+        "dsa": 78,
+        "java": 0,
+        "c": 20,
+        "ml": 90,
+        "ai": 95,
+        "db": 60,
+        "cryptography": 0
+      },
+      "salary": 170000,
+      "type": "remote"
+    }
+  ]

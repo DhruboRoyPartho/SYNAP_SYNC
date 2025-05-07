@@ -5,6 +5,7 @@ import Login from "../pages/login-register/Login";
 import UserRegister from "../pages/login-register/UserRegister";
 import StudentHome from "../dashboard/student/StudentHome";
 import Dashboard from "../layout/DashboardLayout";
+import JobList from "../pages/jobs/Jobs";
 
 
 export const router = createBrowserRouter([
@@ -15,6 +16,10 @@ export const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />
+      },
+      {
+        path: '/jobs',
+        element: <JobList />
       },
       {
         path: '/register',

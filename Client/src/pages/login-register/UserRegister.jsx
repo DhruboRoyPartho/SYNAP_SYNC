@@ -45,43 +45,7 @@ const UserRegister = () => {
     }
 
 
-    const handelSignUp = async e => {
-        e.preventDefault();
-
-        const form = e.target;
-
-        const name = form.name.value;
-        const email = form.email.value;
-        const password = form.password.value;
-        // const confirmPassword = form.confirmPassword.value;
-
-
-        const userInfo = {
-            name,
-            email,
-            password
-        }
-
-        console.log(userInfo);
-
-        const res = await axiosPublic.post('/auth/userRegister', userInfo)
-        // console.log(res.data);
-
-        if (res.data.insertedId) {
-
-            Swal.fire({
-                position: "top-center",
-                icon: "success",
-                title: "You have successfully create an account",
-                showConfirmButton: false,
-                timer: 1500
-            });
-
-            navigate('/login');
-        }
-
-
-    }
+    
 
     return (
         <div>
@@ -170,10 +134,10 @@ const UserRegister = () => {
                         <span className="absolute">
                             <FiPhone className="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500" />
                         </span>
-                        <input type="text" {...register("phone", { required: true })} className="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11  dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="phone number" />
+                        <input type="text" {...register("id", { required: true })} className="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11  dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Student ID" />
 
                     </div>
-                    {errors.phone && <span className="text-red-600 font-bold">Phone number is required</span>}
+                    {errors.id && <span className="text-red-600 font-bold">Student ID is required</span>}
 
 
                     <div className="relative flex items-center mt-6">
