@@ -9,6 +9,8 @@ const StudentHome = () => {
     const [user] = useStudentInfo();
     console.log(user);
 
+    
+
 
 
     const skills = studentData[localStorage.id];
